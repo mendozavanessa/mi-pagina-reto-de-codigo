@@ -131,12 +131,6 @@ footer{
 .guters3 {
   margin: 20px 1px;
 }
-.enabled {
-  display: block;
-}
-.disabled {
-  display: none;
-}
 .enabled-menu {
   display: block;
 }
@@ -152,6 +146,10 @@ footer{
 }
 /*validando enel meta queries si la condicion es verdadera se realizara */
 @media (max-width: 412px) {
+  .mobile-img {
+    width: 85%;
+    margin: 0 0 20px 0;
+  }
   /* Muestra los link*/
   .mobile {
     display: block;
