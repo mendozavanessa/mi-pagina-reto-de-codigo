@@ -1,0 +1,164 @@
+body {
+  font-family: 'Raleway';
+}
+img {
+  width: 100%;
+}
+.title-right{
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: left;
+}
+.main {
+  padding: 30px 30px;
+}
+.uno {
+  float: right;
+}
+.title{
+display: inline-block;
+margin: 0 50% 0% 5% ;
+}
+.list li {
+  float: left;
+  margin: 0 10px;
+  list-style: none;
+}
+.list {
+  display: inline-block;
+}
+.pagina-image {
+  width: 100%;
+}
+.pagina-principal img{
+  background-size: cover;
+  background-origin: content-box;
+  background-position: center;
+}
+.gutters {
+  margin: 2em;
+}
+.guters2 {
+  margin-left: 28px;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+
+}
+.box-text {
+  padding: 15px;
+}
+.box-text p {
+  margin: 10px auto;
+}
+.button {
+  height: auto;
+  width: 100%;
+  background-color: #ccc3;
+  border-top: 1px solid #cccccc;
+}
+.btn {
+  background-color: #007bff;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  color: white;
+  margin: 10px 15px;
+}
+.green-text{
+  padding: 20px 0;
+  background-color: #ffff;
+}
+.green-text .col-xs-4 {
+  background-color: #F48C68;
+  color: white;
+  padding: 20px;
+}
+.h2{
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+h1 {
+  font-family: sans-serif;
+}
+.text-contact {
+  width: 200px;
+  height: 200px;
+}
+footer{
+  padding: 50px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+}
+.dos button {
+  width: 70px;
+  height: 60px;
+  border-radius: 6px;
+  border: none;
+  border: 1px solid white;
+  outline:none;
+  background: transparent;
+  position: absolute;
+  top: 5%;
+  right: 4%;
+}
+.dos #opcs-menu {
+  position: absolute;
+  right: 20px;
+  top: 100px
+}
+.dosList li {
+  list-style: none;
+  color: white;
+}
+.dosList li:hover {
+  background-color: lightgrey;
+}
+.dos hr {
+  width: 35px;
+  border: 1px solid white;
+  margin: 8px 16px;
+}
+
+.dos nav {
+  width: 60%;
+  margin-right: 10%;
+}
+.guters3 {
+  margin: 20px 1px;
+}
+.enabled {
+  display: block;
+}
+.disabled {
+  display: none;
+}
+.enabled-menu {
+  display: block;
+}
+/* Oculta los elementos*/
+.disabled-menu {
+  display: none;
+}
+.desktop {
+  display: block
+}
+.mobile {
+  display: none
+}
+/*validando enel meta queries si la condicion es verdadera se realizara */
+@media (max-width: 412px) {
+  /* Muestra los link*/
+  .mobile {
+    display: block;
+  }
+  /* Oculta los elementos*/
+  .desktop{
+    display: none;
+  }
+  /* Muestra los link*/
+}
